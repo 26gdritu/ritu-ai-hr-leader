@@ -2,6 +2,9 @@
 *.docx
 *.txt
 
+# But allow SEO files
+!robots.txt
+
 # macOS
 .DS_Store
 
