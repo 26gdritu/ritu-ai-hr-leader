@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#person",
+      "name": "Rituparna Ghosh Dastidar",
+      "givenName": "Rituparna",
+      "familyName": "Ghosh Dastidar",
+      "jobTitle": "HR Professional",
+      "description": "HR Professional with 7+ years of experience in talent acquisition, HRIS administration, and employee relations. SHRM-CP certified.",
+      "url": "https://26gdritu.github.io/ritu-ai-hr-leader/",
+      "email": "26gdritu@gmail.com",
+      "telephone": "+1-425-472-7039",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Redmond",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Narsee Monjee Institute of Management Studies",
+          "location": "Mumbai, India"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Calcutta",
+          "location": "Kolkata, India"
+        }
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "SHRM-CP",
+        "credentialCategory": "certification"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/rituparnagdastidar/"
+      ],
+      "knowsAbout": [
+        "Human Resources",
+        "Talent Acquisition",
+        "HRIS",
+        "Workday",
+        "SAP SuccessFactors",
+        "Employee Relations",
+        "Generative AI in HR"
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#book",
+      "name": "Becoming an AI-Ready HR Leader: Generative AI Course for HR Professionals",
+      "author": {
+        "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#person"
+      },
+      "description": "Comprehensive course empowering HR Business Partners, HR Managers, and aspiring HR leaders with deep knowledge of generative AI tools and techniques, and practical skills to apply them in daily HR tasks.",
+      "numberOfPages": 8,
+      "inLanguage": "en-US",
+      "about": [
+        "Generative AI",
+        "Human Resources",
+        "HR Technology",
+        "Artificial Intelligence",
+        "Talent Acquisition",
+        "Learning and Development",
+        "Performance Management",
+        "Workforce Planning"
+      ],
+      "keywords": "AI in HR, Generative AI, HR Technology, HR Leadership, AI Transformation, HR Automation, Talent Management",
+      "educationalUse": "Professional Development",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "HR Professionals, HR Business Partners, HR Managers"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#website",
+      "url": "https://26gdritu.github.io/ritu-ai-hr-leader/",
+      "name": "Rituparna Ghosh Dastidar - HR Professional Portfolio",
+      "description": "Professional portfolio showcasing HR expertise and the book 'Becoming an AI-Ready HR Leader'",
+      "author": {
+        "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#person"
+      },
+      "publisher": {
+        "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#person"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@id": "https://26gdritu.github.io/ritu-ai-hr-leader/#person"
+      },
+      "url": "https://26gdritu.github.io/ritu-ai-hr-leader/",
+      "name": "Rituparna Ghosh Dastidar - Professional Profile"
+    }
+  ]
+}
