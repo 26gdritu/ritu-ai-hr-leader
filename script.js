@@ -300,6 +300,15 @@ if ('loading' in HTMLImageElement.prototype) {
 }
 
 // ===========================
+// Hero Posts Grid: set data-count for dynamic layout
+// ===========================
+const heroPostsGrid = document.getElementById('heroPostsGrid');
+if (heroPostsGrid) {
+    const postCount = heroPostsGrid.querySelectorAll('.hero-post-card').length;
+    heroPostsGrid.setAttribute('data-count', Math.min(postCount, 4));
+}
+
+// ===========================
 // Initialize
 // ===========================
 document.addEventListener('DOMContentLoaded', () => {
